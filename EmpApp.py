@@ -31,7 +31,7 @@ def add():
     return render_template('AddEmp.html')
 
 @app.route("/login", methods=['POST'])
-def add():
+def login():
     return render_template('GetEmp.html')
 
 
